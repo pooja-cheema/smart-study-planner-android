@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# Local config (SDK path and any keys stay on your computer)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+/captures
+.externalNativeBuild
+.cxx
+
+# OS files
+.DS_Store
+Thumbs.db

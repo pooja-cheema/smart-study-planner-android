@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- deep blue: toolbar, splash, hero cards -->
+    <color name="colorPrimary">#1A237E</color>
+    <color name="colorPrimaryDark">#0D1B6E</color>
+
+    <!-- teal: accent on charts and selected states -->
+    <color name="colorSecondary">#00BFA5</color>
+
+    <!-- Warm orange accent: highlights and CTAs -->
+    <color name="colorAccent">#FF6D00</color>
+
+    <!-- Basic -->
+    <color name="white">#FFFFFF</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_400">#BDBDBD</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#555577</color>
+
+    <!-- Pomodoro timer mode colors -->
+    <color name="work_color">#1A237E</color>
+    <color name="break_color">#004D40</color>
+
+    <!-- Default screen background tint -->
+    <color name="background">#F0F2FF</color>
+
+</resources>

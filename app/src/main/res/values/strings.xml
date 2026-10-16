@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Shown in launcher and in toolbar -->
+    <string name="app_name">Smart Study Planner</string>
+
+    <!-- Planner / Due Today screen -->
+    <string name="due_today">Due Today</string>
+    <string name="manage_tasks">Manage Tasks →</string>
+    <string name="all_tasks_due_today">All tasks due today</string>
+
+    <!-- Used by +/− buttons in Pomodoro timer settings -->
+    <string name="cd_increase_work">Increase work time</string>
+    <string name="cd_decrease_work">Decrease work time</string>
+    <string name="cd_increase_break">Increase break time</string>
+    <string name="cd_decrease_break">Decrease break time</string>
+
+</resources>

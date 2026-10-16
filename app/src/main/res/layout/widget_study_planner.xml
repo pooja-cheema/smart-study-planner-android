@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📚 Study Planner"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/widget_pending_tasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending tasks: --"
+        android:textSize="16sp"
+        android:textColor="#E3F2FD"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/widget_study_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today: --"
+        android:textSize="16sp"
+        android:textColor="#E3F2FD"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

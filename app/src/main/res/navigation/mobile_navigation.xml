@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_planner">
+
+    <fragment
+        android:id="@+id/navigation_planner"
+        android:name="edu.niu.android.smartstudyplanner.ui.planner.PlannerFragment"
+        android:label="Planner">
+
+        <action
+            android:id="@+id/action_planner_to_flashcards"
+            app:destination="@id/navigation_flashcards"
+            app:popUpTo="@id/navigation_planner"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_planner_to_gpa"
+            app:destination="@id/navigation_gpa"
+            app:popUpTo="@id/navigation_planner"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_planner_to_music"
+            app:destination="@id/navigation_music"
+            app:popUpTo="@id/navigation_planner"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_planner_to_tips"
+            app:destination="@id/navigation_tips"
+            app:popUpTo="@id/navigation_planner"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_planner_to_countdown"
+            app:destination="@id/navigation_countdown"
+            app:popUpTo="@id/navigation_planner"
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_courses"
+        android:name="edu.niu.android.smartstudyplanner.ui.courses.CoursesFragment"
+        android:label="My Courses" />
+
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="edu.niu.android.smartstudyplanner.ui.tasks.TasksFragment"
+        android:label="Tasks" />
+
+    <fragment
+        android:id="@+id/navigation_timer"
+        android:name="edu.niu.android.smartstudyplanner.ui.timer.TimerFragment"
+        android:label="Study Timer" />
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="edu.niu.android.smartstudyplanner.ui.stats.StatsFragment"
+        android:label="Statistics" />
+
+    <fragment
+        android:id="@+id/navigation_tips"
+        android:name="edu.niu.android.smartstudyplanner.ui.tips.StudyTipsFragment"
+        android:label="Study Tips" />
+
+    <fragment
+        android:id="@+id/navigation_flashcards"
+        android:name="edu.niu.android.smartstudyplanner.ui.flashcards.FlashcardsFragment"
+        android:label="Flashcards" />
+
+    <fragment
+        android:id="@+id/navigation_gpa"
+        android:name="edu.niu.android.smartstudyplanner.ui.gpa.GpaFragment"
+        android:label="GPA Calculator" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="edu.niu.android.smartstudyplanner.ui.music.MusicFragment"
+        android:label="Study Music" />
+
+    <fragment
+        android:id="@+id/navigation_countdown"
+        android:name="edu.niu.android.smartstudyplanner.ui.countdown.CountdownFragment"
+        android:label="Exam Countdown" />
+
+</navigation>
